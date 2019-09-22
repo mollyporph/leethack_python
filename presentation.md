@@ -36,3 +36,15 @@ Linux:
 Windows:
 - Download https://bootstrap.pypa.io/get-pip.py
 - python get-pip.py
+
+
+# HelloWorld.py
+```python
+import socket
+def hello(person):
+    hostname = socket.gethostname()
+    print(f"Hello {person}, from {hostname}.")
+
+if __name__ == "__main__":
+    hello("world")
+```
