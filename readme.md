@@ -1,6 +1,7 @@
 # LeetHack.py
 
-Slides available at https://github.com/mollyporph/leethack_python
+Slides available at
+ https://github.com/mollyporph/leethack_python
 
 - Install & Configure
 - Introduction to Python
