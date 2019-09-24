@@ -395,7 +395,7 @@ Never re-raise exception!
 
 	myAnswer = "a b c"
 	request.post('http://leethack.party/somepath', 
-		      headers={'content-type': 'plain/text'},
+		      headers={'content-type': 'text/plain'},
 		      data=myAnswer)
 
 ```
