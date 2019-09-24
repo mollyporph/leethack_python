@@ -184,13 +184,13 @@ Always use python -m pip install x
 List-comprehensions
 
 ```python
-	a_new_list = [x for x in [1, 2, 3])
+	a_new_list = [x for x in [1, 2, 3]]
 	# [1, 2, 3]
 
 	a_new_set = {x for x in [1, 2, 3]}
 	# {1, 2, 3}
 
-	a_new_dict = {x : 'leethack' for x in [1, 2, 3])
+	a_new_dict = {x : 'leethack' for x in [1, 2, 3]}
 	# {1: 'leethack', 2: 'leethack', 3: 'leethack'}
 
 	a_generator = (x for x in [1,2,3])
@@ -395,7 +395,7 @@ Never re-raise exception!
 
 	myAnswer = "a b c"
 	request.post('http://leethack.party/somepath', 
-		      headers={'content-type', 'plain/text'},
+		      headers={'content-type': 'plain/text'},
 		      data=myAnswer)
 
 ```
